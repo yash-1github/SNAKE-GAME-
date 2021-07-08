@@ -56,13 +56,13 @@ function call(){
 
   
    if(direc === "left"){
-       oldsnakex  -= 32;
+       oldsnakex  -= 16;
    }else if(direc === "right"){
-       oldsnakex +=32;
+       oldsnakex +=16;
    }else if(direc === "up"){
-       oldsnakey -=32;
+       oldsnakey -=16;
    }else if(direc === "down"){
-       oldsnakey += 32;
+       oldsnakey += 16;
    }
 
    if(oldsnakex > 608){
